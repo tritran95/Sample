@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tritr.constraintlayout.MainActivity"
+    tools:ignore="ExtraText">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideLine1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.3"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="115dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/guideLine1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+
+    <ScrollView
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cambridge_dictionary_dictionary_translate_grammar_log_in_english_uk_follow_us_log_in_english_uk_menu_dictionary_translate_grammar_back_to_home_page_search_term_grammarenglish_frenchfrench_english_meaning_of_scroll_in_the_english_dictionary_english_american_business_scroll_in_english_see_all_translations_scrollnoun_c_uk_skr_l_us_skro_l_a_long_roll_of_paper_or_similar_material_with_usually_official_writing_on_it_the_ancient_egyptians_stored_information_on_scrolls_a_decoration_that_looks_like_a_roll_of_paper_the_tops_of_the_marble_pillars_were_decorated_with_scrolls_thesaurus_synonyms_and_related_words_decorating_or_making_something_attractive_accessorize_adorn_adornment_beautify_bedeck_edged_embellish_festoon_flock_garland_glam_ornament_ornamentation_ornate_pimp_prettify_titivate_twiddly_window_dressing_zhuzh_see_more_results_scrollverb_i_usually_adv_prep_uk_skr_l_us_skro_l_c2_to_move_text_or_other_information_on_a_computer_screen_in_order_to_see_a_different_part_of_it_scroll_to_the_end_of_the_document_thesaurus_synonyms_and_related_words_definition_of_scroll_from_the_cambridge_advanced_learner_s_dictionary_thesaurus_cambridge_university_press_translations_of_scroll_in_french_faire_d_filer_faire_d_filer_vers_le_haut_bas_rouleau_need_a_translator_translator_tool_get_a_quick_free_translation_what_is_the_pronunciation_of_scroll_browse_script_scripted_scripture_scriptwriter_scroll_scroll_bar_scroll_key_scrooge_scrotum_scroll_up_scroll_down_create_and_share_your_own_word_lists_and_quizzes_for_free_sign_up_now_log_in_contents_noun_1_verb_1_more_meanings_of_scroll_scroll_bar_scroll_key_see_all_meanings_word_of_the_day_referendum_a_vote_in_which_all_the_people_in_a_country_or_an_area_are_asked_to_give_their_opinion_about_or_decide_an_important_political_or_social_question_about_this_my_trump_card_words_and_phrases_meaning_advantage_blog_my_trump_card_words_and_phrases_meaning_advantage_september_27_2017_read_more_frequency_patch_noun_new_words_frequency_patch_noun_september_25_2017_more_new_words_search_from_your_browser_add_cambridge_dictionary_to_your_browser_in_a_click_get_our_free_widgets_add_the_power_of_cambridge_dictionary_to_your_website_using_our_free_search_box_widgets_dictionary_apps_browse_our_dictionary_apps_today_and_ensure_you_are_never_again_lost_for_words_learn_new_words_help_in_print_develop_dictionary_api_double_click_lookup_search_widgets_license_data_about_accessibility_cambridge_english_cambridge_university_press_cookies_and_privacy_corpus_terms_of_use_2_30_m_likes_145_k_followers_n_c_fans_cambridge_university_press_2017"
+            app:layout_constraintHorizontal_bias="0.0"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
+
